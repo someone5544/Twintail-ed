@@ -149,4 +149,7 @@ $(document).ready(function() {
 	if(d.getMonth() == 1 && d.getDate() == 2) {
 		$("#ttday").text("Happy Twintail Day!");
 	}
+	else if(d.getMonth() == 1 && d.getDate() == 14) {
+		$("#ttday").text("Happy (Twintailed) Valentine's Day!");
+	}
 });
